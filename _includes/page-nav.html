@@ -1,0 +1,19 @@
+<nav class="top-nav" id="page-nav">
+  <ul class="top-menu">
+    <li><a href="/">Home</a></li>
+    {% for page in site.pages %}
+      {% if page.in_nav == true %}
+      <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    {% for item in site.data.settings.custom_links %}
+      <li><a href="{{ item.url}}">{{ item.title}}</a></li>
+    {% endfor %}
+    <li><a href="#contact" id="contact">Contact</a></li>
+    <li class="cta-li"><a href="{{site.data.settings.client.homeeval}}" class="button cta">Join Our Team</a></li>
+  <!--  <li class="cta-li"><a href="{{site.data.settings.client.homesearch}}" class="button-ghost cta">Home Search</a></li>-->
+  </ul>
+  <a href="#" id="hamburger" role="button">
+  <span></span>
+  </a>
+</nav>

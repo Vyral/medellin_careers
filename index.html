@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<!-- blog feed -->
+<div class="row">
+  <div class="pad">
+    <ul class="post-list">
+      {% for post in paginator.posts %}
+      <li>
+        {% if paginator.total_posts < 2 %}
+          <div class="single post-wrapper">
+        {% else  %}
+          <div class="six columns post-wrapper">
+        {% endif %}
+          <a href="{{post.url}}">
+            {% if post.image %}
+            <img src="{{post.image}}" alt="{{post.title}}" class="post-image" />
+
+            {% endif %}
+          </a>
+          <div class="post-excerpts">
+          <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+            <h2 class="post-title"><a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title | truncate: 70 }}</a></h2>
+          {{ post.excerpt | strip_html | prepend: "<p class='excerpt'>" | append: "<p>" }}
+            <p class="readlink"><a href="{{post.url}}" class="readmore">Read More</a></p>
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% if paginator.total_posts > 4 %}
+  {% include pagination.html %}
+{% endif %}

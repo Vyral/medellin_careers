@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    {% if site.data.settings.audit_header == true %}
+     {% include audit.html %}
+    {% endif %}
+    {% include nav.html %}
+    {% include header.html %}
+    {% include contact-modal.html %}
+    <main>
+      {% if paginator.total_posts < 2%}
+        <div class="container single content-wrapper">
+        {% else %}
+        <div class="container content-wrapper">
+      {% endif %}
+        {% include socials.html %}
+        {{ content }}
+      </div>
+    </main>
+    {% include newsletter.html %}
+    {% include footer.html %}
+
+  </body>
+
+</html>

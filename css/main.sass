@@ -1,0 +1,52 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8"
+
+$main-width: 120rem
+$nav-height: 5rem
+
+//fonts
+$bodyfont: 'Source Sans Pro', helvetica, arial, sans-serif
+$headerfont: 'Source Sans Pro', helvetica, arial, sans-serif
+
+//colors
+
+$brand: #27B9CD
+$brand-light: lighten($brand, 20%)
+$brand-dark: darken($brand, 10%)
+$bodycolor: #252525
+$transparent-black: rgba(0,0,0,0.5)
+
+$nav-background: transparentize(black, 0.2)
+$header-font-color: $brand
+$header-shadow: 0 0 7px $transparent-black
+
+
+//Mixins
+@mixin size($n)
+  height: $n
+  width: $n
+@mixin shadow
+  box-shadow: $header-shadow
+
+//vendors
+@import "vendor/normalize"
+@import "vendor/skeleton"
+@import "vendor/bourbon/bourbon"
+
+@import "base"
+@import "nav"
+@import "header"
+@import "modal"
+@import "forms"
+@import "socials"
+@import "page"
+@import "posts"
+@import "pagination"
+@import "newsletter"
+@import "footer"
+//pages
+@import "about"
+//Leave me last
+@import "custom"

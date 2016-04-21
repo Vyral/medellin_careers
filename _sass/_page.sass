@@ -1,0 +1,50 @@
+//throw your individual page styles in here
+
+.page
+  .site-title
+    font-size: 4rem
+  .page-title
+    color: $brand
+    text-shadow: $header-shadow
+    text-transform: uppercase
+  .content-wrapper
+    padding: 2rem
+
+//thank you page
+.thankyou
+  text-align: center
+  margin-top: 3rem
+  svg
+    max-width: 50rem
+  &:first-child
+    p
+      margin-top: 2rem
+.checkmark
+  fill: $brand
+  @include animation(checkmark 2s $ease-in-out-quad forwards)
+
+.envelope
+  @include animation(checkmark 2s $ease-out-quint)
+
+@include keyframes(checkmark)
+  0%
+    @include transform(rotate(-15deg) scale(0.02))
+  100%
+    @include transform(rotate(0deg) scale(1) translate(-209px, -148px))
+
+//404 page
+.fourohfour
+  text-align: center
+  font-size: 3rem
+  padding: 4rem
+  #number
+    font-size: 6rem
+    font-weight: bold
+
+@media (max-width: 500px)
+  .page
+    .site-title
+      font-size: 2.5rem
+@media (max-width: 400px)
+  .page-title
+    font-size: 3rem

@@ -1,0 +1,72 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <!-- fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,300italic,200' rel='stylesheet' type='text/css'>
+  <!-- style-->
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <!-- All that meta crap -->
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="content-language" content="en_US">
+  <meta name="author" content="{{site.data.settings.client.name}}">
+  <meta name="web_author" content="Bryce Stradling">
+  <meta name="copyright" content="{{site.data.settings.client.name}}">
+
+  <!--Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:description" content="{{site.description}}">
+  <meta property="og:site_name" content="{{site.title}}">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="{{site.image}}">
+  <meta property="fb:admins" content="{{site.fb-admins}}">
+  <meta property="og:rich_attachment" content="true">
+
+  <!-- Oldschool meta content -->
+  <meta itemprop="description" content="{{site.description}}">
+  <meta name="keywords" content="{{site.keywords}}">
+  <meta name="copyright" content="Copyright © {{site.date | format: %Y}}">
+  <meta name="author" content="{{site.data.settings.client.name}}">
+  <meta name="designer" content="Bryce Stradling">
+  <meta name="email" content="{{site.data.settings.client.email}}">
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
+  <link type="text/plain" rel="author" href="{{site.url}}/humans.txt">
+  <link rel="author" href="{{site.data.settings.socials.gplus}}"/>
+
+  <!-- ICONS HOLY CRAP -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/img/icons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/img/icons/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="/img/icons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/img/icons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/img/icons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/img/icons/manifest.json">
+  <link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#27b9cd">
+  <link rel="shortcut icon" href="/img/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#27b9cd">
+  <meta name="msapplication-TileImage" content="/img/icons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/img/icons/browserconfig.xml">
+  <meta name="theme-color" content="#27b9cd">
+  
+  <!-- sumome heatmap widget -->
+  <script src="//load.sumome.com/" data-sumo-site-id="b878899729176af997643dbe80a9377ade314c130deec316d4b0d7242daa87b6" async="async"></script>
+
+</head>
