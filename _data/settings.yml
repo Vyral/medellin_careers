@@ -1,9 +1,7 @@
 custom_links:
-  - title: 
+  - title:
     url:
-
 title: Agent Hype
-
 client:
   market:
   name: Enrique Medellin
@@ -12,39 +10,33 @@ client:
   address: '1590 Oakland Rd #B104 San Jose, CA 95131'
   phone: 1-408-416-2488
   email: Enrique@realestatePRG.com
-  url: http://www.themedellingroup.com/
-  # if forms put '/homevalue/' or '/homesearch/'
-  homeeval: '/homevalue/'
-  homesearch: '/homesearch/'
-  VR_form: http://oi.vresp.com?fid=cf8d350165
-
+  url: 'http://www.themedellingroup.com'
+  homeeval: /homevalue/
+  homesearch: /homesearch/
+  VR_form: 'http://oi.vresp.com?fid=cf8d350165'
 socials:
-  facebook: 'https://www.facebook.com/ParamountRealtyGroup/'
+  facebook:
   linkedin: 'https://www.linkedin.com/company/paramount-realty-group'
   gplus: 'https://plus.google.com/b/110031575381166777370/110031575381166777370/about'
   youtube: 'https://www.youtube.com/channel/UCMiC_NieOuhzi3qNys7x6Kw'
-  twitter: 'https://twitter.com/PRGEnrique'
+  twitter:
   instagram: '#'
   pinterest: '#'
   zillow: '#'
   trulia: '#'
   yelp: '#'
   podcast: '#'
-
-#layout options
 review_sm_icons: true
 audit_header: false
-
 podcast:
   title: Agent Hype
   categories:
     - category: 'News &amp; Politics'
   image: 'http://i.imgur.com/jJxfq9v.jpg'
-  subtitle: 'Marketing Strategies For the Modern Realtor'
-  description: 'Supe Up Your Real Estate Career'
+  subtitle: Marketing Strategies For the Modern Realtor
+  description: Supe Up Your Real Estate Career
   keywords: 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in San Francisco, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
   author: Enrique Medellin
-
 images:
   hero_image_path: /img/blur_store.jpg
   hero_logo_path: /img/logo.png
