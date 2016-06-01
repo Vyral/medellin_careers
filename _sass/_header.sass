@@ -8,19 +8,21 @@
   text-align: center
   padding-top: 2rem
   p
-    color: #909090
+    color: white
+    font-size: 2rem
+    font-weight: 200
 
 .site-logo
   width: 100%
-  max-width: 28rem
+  max-width: 12rem
   margin-top: $nav-height
-  @include filter(drop-shadow($header-shadow))
+  //@include filter(drop-shadow($header-shadow))
 
 .site-title
-  color: $brand
+  color: white
   text-shadow: $header-shadow
   text-transform: uppercase
-  font-size: 6.5rem
+  font-size: 12rem
 
 .cta
   padding: 1rem 2rem
@@ -57,11 +59,13 @@
 @media (max-width: 500px)
   #hero
     height: 45rem
+    p
+      font-size: 1.5rem
   .site-logo
-    max-width: 15rem
-    margin-top: 4rem
+    max-width: 10rem
+    margin-top: 6rem
   .site-title
-    font-size: 3.5rem
+    font-size: 6rem
   .cta
     padding: 1rem
 @media (max-width: 400px)

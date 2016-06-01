@@ -2,6 +2,34 @@
 <div class="modal-wrapper">
   <div class="contact-modal" id="modal">
     <strong class="label">Contact Us</strong>
+    <address>
+      <strong>{{site.data.settings.client.name}}</strong>
+      {% if site.data.settings.client.brand and site.data.settings.client.brokerage == "#" %}
+        <br>
+        {{site.data.settings.client.address}}
+      {% elsif site.data.settings.client.brand == "#" %}
+        <br>
+        {{site.data.settings.client.brokerage}}
+        <br>
+        {{site.data.settings.client.address}}
+      {% elsif site.data.settings.client.brokerage == "#" %}
+        <br>
+        {{site.data.settings.client.brand}}
+        <br>
+        {{site.data.settings.client.address}}
+      {% else %}
+        <br>
+        {{site.data.settings.client.brand}}
+        <br>
+        {{site.data.settings.client.brokerage}}
+        <br>
+        {{site.data.settings.client.address}}
+        <br>
+      {% endif %}
+      <a href="tel:1-{{site.data.settings.client.phone}}">{{site.data.settings.client.phone}}</a>
+      <br>
+      <a href="mailto:{{site.data.settings.client.email}}">{{site.data.settings.client.email}}</a>
+    </address>
     <button type="button" name="exit" class="exit">X</button>
     <form class="contact-form" method="post" action="#">
       <input type="text" name="name" placeholder="Name" required>

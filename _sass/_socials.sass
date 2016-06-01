@@ -11,13 +11,13 @@
     padding: 0.3rem
     display: inline-block
   svg
-    fill: $brand
+    fill: #4A4A4A
     @include size(4rem)
     border-radius: 50%
     @include transition(1s cubic-bezier(0.4, 0, 0.2, 1))
     &:hover
       cursor: pointer
-      fill: $brand-light
+      fill: $secondary
       @include transform(rotate(360deg))
 
 //For about page
@@ -29,7 +29,7 @@
     @include size(5rem)
     fill: $brand
     &:hover
-      fill: $brand-light
+      fill: $secondary
 
 .footer-socials
   .socials
@@ -46,7 +46,7 @@
       -webkit-transition: 1s cubic-bezier(0.4, 0, 0.2, 1)
       transition: 1s cubic-bezier(0.4, 0, 0.2, 1)
       &:hover
-        fill: $brand
+        fill: $secondary
         @include transform(rotate(360deg))
 
 @media (max-width: 500px)
