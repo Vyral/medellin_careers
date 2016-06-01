@@ -6,7 +6,7 @@ client:
   market:
   name: Enrique Medellin
   brand: PRG Real Estate
-  brokerage: "#"
+  brokerage: '#'
   address: '1590 Oakland Rd #B104 San Jose, CA 95131'
   phone: 1-408-416-2488
   email: Enrique@realestatePRG.com
@@ -15,11 +15,11 @@ client:
   homesearch: /homesearch/
   VR_form: 'http://oi.vresp.com?fid=47068f794f'
 socials:
-  facebook: 'https://www.facebook.com/ParamountRealtyGroup/'
+  facebook:
   linkedin: 'https://www.linkedin.com/company/paramount-realty-group'
   gplus: 'https://plus.google.com/b/110031575381166777370/110031575381166777370/about'
   youtube: 'https://www.youtube.com/channel/UCMiC_NieOuhzi3qNys7x6Kw'
-  twitter: 'https://twitter.com/PRGEnrique'
+  twitter:
   instagram: '#'
   pinterest: '#'
   zillow: '#'
@@ -40,5 +40,5 @@ podcast:
 images:
   hero_image_path: /img/aerial.jpg
   hero_logo_path: /img/logo.png
-  hero_background_hex: '#ffffff'
+  hero_background_hex: '#2f7283'
   client_headshot_path: /img/headshot.png
