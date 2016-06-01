@@ -19,7 +19,8 @@
   border-radius: 9px
   border: 1px solid #D8D8D8
   margin: 1rem
-  height: 575px
+  +display(flex)
+  +flex-direction(column)
   position: relative
   @include transition(0.3s)
   &:hover
@@ -55,8 +56,8 @@
 
 .readlink
   text-align: center
-  position: absolute
-  bottom: 0
+  //position: absolute
+  //bottom: 0
   width: 100%
 
 .readmore
@@ -69,7 +70,7 @@
     background: $brand
     color: white
     border: 1px solid $brand
-    font-size: 1.8rem
+    //font-size: 1.8rem
 
 #arrow_left, #arrow_right
   max-width: 2rem
@@ -94,6 +95,7 @@
   max-width: 70%
   display: block
   margin: 1.5rem auto
+  cursor: pointer
   @include transition(0.3s)
   &:hover
     &::after
@@ -182,11 +184,11 @@
 @media (max-width: 1000px) and (min-width: 900px)
   .six.columns.post-wrapper
     width: 100%
-    height: 750px
+    //height: 750px
 
 @media(max-width: 900px) and (min-width: 700px)
   .six.columns.post-wrapper
-    height: 685px
+    //height: 685px
 
 @media (max-width: 775px)
   .content-wrapper
@@ -194,12 +196,12 @@
   .single.content-wrapper
     //padding-left: 2rem
   .post-wrapper
-    height: 605px
+    //height: 605px
 
 
 @media (max-width: 550px)
   .six.columns.post-wrapper
-    height: 530px
+    //height: 530px
   .post
     .site-logo
       margin-left: 0

@@ -8,15 +8,16 @@ tags:
   - Real Estate
   - Buyer Tips
   - Home Seller Tips
-excerpt:
+excerpt: One thing you should make sure of is pursuing pre-approval. It should be from a respectable lender. Additionally, your form of financing is important. Conventional is a safest route, but there are many options available. The more money you can put down, the more attractive your offer will look.
 enclosure:
 pullquote: Junk and Stuff
-youtube_link:
+youtube_link: https://www.youtube.com/embed/He-jiqxAaTs
 enclosure_type: video/mp4
 enclosure_time:
 image: /img/ss (20).jpg
 ---
 
+<iframe width="652" height="367" src="{{page.youtube_link}}" frameborder="0" allowfullscreen></iframe>
 
 One thing you should make sure of is pursuing pre-approval. It should be from a respectable lender. Additionally, your form of financing is important. Conventional is a safest route, but there are many options available. The more money you can put down, the more attractive your offer will look.
 
@@ -24,7 +25,7 @@ A creative way to stand out is to writing a letter to the seller. Express how pa
 
 The most important factor of your offer, however, is the amount. Don’t submit a low-ball offer. On average, sellers earn 97% to 98% of their listing price. To make sure you score the best bargain, hire a tailored real estate agent to represent you!
 
-| &lt;a href="https://twitter.com/home/?status={{page.pullquote}}%20{{site.url}}{{page.url}}%20via%40{{site.data.settings.socials.twitter&lt;/td&gt;&lt;td&gt;remove: 'https://twitter.com/'}}" target='_blank' class="pullquote"&gt;“{{page.pullquote}}”&lt;/a&gt; |
+<a href="https://twitter.com/home/?status={{page.pullquote}}%20{{site.url}}{{page.url}}%20via%40{{site.data.settings.socials.twitter | remove: 'https://twitter.com/'}}" target='_blank' class="pullquote">&#8220;{{page.pullquote}}&#8221;</a>
 
 **The most important factor of your offer, however, is the amount. Don’t submit a low-ball offer.** On average, sellers earn 97% to 98% of their listing price. To make sure you score the best bargain, hire a tailored real estate agent to represent you!
 

@@ -3,10 +3,13 @@
     <div class="row">
       {% comment %} if something is missing from the contact info it won't print extra columns {% endcomment %}
       {% if site.data.settings.client.brand and site.data.settings.client.brokerage == "#" %}
-        <div class="six columns">
+        <div class="four columns">
           <span itemprop="founder">{{site.data.settings.client.name}}</span>
         </div>
-        <div class="six columns">
+        <div class="four columns">
+          <span itemprop="brand">{{site.data.settings.client.brand}}</span>
+        </div>
+        <div class="four columns">
           <address itemprop="address">{{site.data.settings.client.address}}</address>
         </div>
       {% elsif site.data.settings.client.brand == "#" %}
