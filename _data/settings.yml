@@ -15,11 +15,11 @@ client:
   homesearch: /homesearch/
   VR_form: 'http://oi.vresp.com?fid=47068f794f'
 socials:
-  facebook:
+  facebook: '#'
   linkedin: 'https://www.linkedin.com/company/paramount-realty-group'
   gplus: 'https://plus.google.com/b/110031575381166777370/110031575381166777370/about'
   youtube: 'https://www.youtube.com/channel/UCMiC_NieOuhzi3qNys7x6Kw'
-  twitter:
+  twitter: '#'
   instagram: '#'
   pinterest: '#'
   zillow: '#'
