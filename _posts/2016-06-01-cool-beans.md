@@ -27,7 +27,7 @@ A creative way to stand out is to writing a letter to the seller. Express how pa
 
 The most important factor of your offer, however, is the amount. Don’t submit a low-ball offer. On average, sellers earn 97% to 98% of their listing price. To make sure you score the best bargain, hire a tailored real estate agent to represent you!
 
-<a href="https://twitter.com/home/?status={{page.pullquote}}%20{{site.url}}{{page.url}}%20via%40{{site.data.settings.socials.twitter | remove: 'https://twitter.com/'}}" target='_blank' class="pullquote">&#8220;{{page.pullquote}}&#8221;</a>
+{% include pullquote.html %}
 
 **The most important factor of your offer, however, is the amount. Don’t submit a low-ball offer.** On average, sellers earn 97% to 98% of their listing price. To make sure you score the best bargain, hire a tailored real estate agent to represent you!
 
