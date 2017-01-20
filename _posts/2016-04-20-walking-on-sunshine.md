@@ -7,12 +7,14 @@ tags:
 excerpt: Today I have Angel Orozco from Skyline Security and he’s going to be talking about home security systems and how they can actually help your home sell in Silicon Valley. Skyline Security has been around for fifteen years and they specialize in all of the newer and more advanced security systems. Many of these are controlled via smartphones and they can be used commercially or residentially.
 enclosure:
 pullquote: Buyers Like To See Security Systems Installed
-youtube_link: https://www.youtube.com/embed/He-jiqxAaTs
 enclosure_type: video/mp4
 enclosure_time:
 image: /img/youtube.jpg
+use_youtube_image: true
+youtube_alternate_image:
+youtube_code: https://www.youtube.com/He-jiqxAaTs
 ---
-<iframe width="652" height="367" src="https://www.youtube.com/embed/He-jiqxAaTs" frameborder="0" allowfullscreen></iframe>
+{% include youtube.html %}
 
 Today I have Angel Orozco from Skyline Security and he’s going to be talking about home security systems and how they can actually help your home sell in Silicon Valley. Skyline Security has been around for fifteen years and they specialize in all of the newer and more advanced security systems. Many of these are controlled via smartphones and they can be used commercially or residentially.
 
