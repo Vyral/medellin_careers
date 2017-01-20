@@ -14,7 +14,9 @@ pullquote: Junk and Stuff
 youtube_link: https://www.youtube.com/embed/He-jiqxAaTs
 enclosure_type: video/mp4
 enclosure_time:
-image: /img/ss (20).jpg
+use_youtube_image: true 
+youtube_alternate_image: img/ss (20).jpg
+youtube_code:
 ---
 
 <iframe width="652" height="367" src="{{page.youtube_link}}" frameborder="0" allowfullscreen></iframe>
