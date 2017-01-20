@@ -13,7 +13,6 @@ youtube_alternate_image: /uploads/benefits-for-a-team-youtube.jpg
 youtube_code: KZnUGiSCzQg
 ---
 
-
 {% include youtube.html %}
 
 Why should you be working on a team instead of by yourself? There are four main benefits:
