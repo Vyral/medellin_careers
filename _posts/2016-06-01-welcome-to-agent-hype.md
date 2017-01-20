@@ -16,7 +16,7 @@ enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: true 
 youtube_alternate_image: img/ss (20).jpg
-youtube_code: https://www.youtube.com/He-jiqxAaTs
+youtube_code: He-jiqxAaTs
 ---
 
 {%include youtube.html %}
