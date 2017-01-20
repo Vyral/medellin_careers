@@ -19,7 +19,7 @@ youtube_alternate_image: img/ss (20).jpg
 youtube_code: https://www.youtube.com/embed/He-jiqxAaTs
 ---
 
-{{includes youtube.html}}
+{%includes youtube.html%}
 
 One thing you should make sure of is pursuing pre-approval. It should be from a respectable lender. Additionally, your form of financing is important. Conventional is a safest route, but there are many options available. The more money you can put down, the more attractive your offer will look.
 
