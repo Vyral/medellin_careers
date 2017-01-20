@@ -12,7 +12,7 @@ enclosure_time:
 image: /img/youtube.jpg
 use_youtube_image: true
 youtube_alternate_image:
-youtube_code: https://www.youtube.com/He-jiqxAaTs
+youtube_code: He-jiqxAaTs
 ---
 {% include youtube.html %}
 
