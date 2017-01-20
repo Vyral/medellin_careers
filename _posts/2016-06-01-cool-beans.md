@@ -11,7 +11,6 @@ tags:
 excerpt: One thing you should make sure of is pursuing pre-approval. It should be from a respectable lender. Additionally, your form of financing is important. Conventional is a safest route, but there are many options available. The more money you can put down, the more attractive your offer will look.
 enclosure:
 pullquote: Junk and Stuff
-youtube_link: https://www.youtube.com/embed/He-jiqxAaTs
 enclosure_type: video/mp4
 enclosure_time:
 image: /img/ss (20).jpg
