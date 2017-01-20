@@ -27,5 +27,3 @@ Why should you be working on a team instead of by yourself? There are four main 
 All of these points are in sharp contrast to the prospect of working independently, where you have to juggle all aspects of the business by yourself. It’s easy for that kind of burden of responsibility to overwhelm your ability to provide good service to your clients.
 
 My team is currently looking for agents, so if you feel like you’d be a great fit, please give us a call or send us an email. We hope to talk to you soon.
-
-{% include pullquote.html %}
