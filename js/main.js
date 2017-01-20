@@ -32,6 +32,9 @@ $(function(){
 $('#contact').click(function(){
 	$('.modal-wrapper').show();
 });
+$('#contact2').click(function(){
+	$('.modal-wrapper').show();
+});
 
 $('.exit').click(function(){
 	$('.modal-wrapper').hide();
