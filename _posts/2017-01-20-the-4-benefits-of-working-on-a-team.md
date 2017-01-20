@@ -8,7 +8,7 @@ enclosure: 'https://s3.amazonaws.com/vyralmarketing/Enrique+Medellin/Agent+Hype-
 pullquote: Being on a team provides structure and accountability
 enclosure_type: video/mp4
 enclosure_time:
-use_youtube_image: true
+use_youtube_image: false
 youtube_alternate_image: /uploads/benefits-for-a-team-youtube.jpg
 youtube_code: KZnUGiSCzQg
 ---
