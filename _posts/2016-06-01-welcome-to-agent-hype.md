@@ -16,7 +16,7 @@ enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: true 
 youtube_alternate_image: img/ss (20).jpg
-youtube_code:
+youtube_code: https://www.youtube.com/embed/He-jiqxAaTs
 ---
 
 <iframe width="652" height="367" src="{{page.youtube_link}}" frameborder="0" allowfullscreen></iframe>
