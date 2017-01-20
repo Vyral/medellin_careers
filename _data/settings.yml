@@ -11,7 +11,7 @@ client:
   phone: 1-408-416-2488
   email: Enrique@realestatePRG.com
   url:
-  homeeval: '/#contact2'
+  homeeval: '#contact2'
   homesearch: /homesearch/
   VR_form: 'http://oi.vresp.com?fid=47068f794f'
 socials:
