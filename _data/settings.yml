@@ -25,7 +25,7 @@ socials:
   zillow: '#'
   trulia: '#'
   yelp: '#'
-  podcast: '#'
+  podcast: 'https://itunes.apple.com/us/podcast/agent-hype/id1201880214?mt=2'
 review_sm_icons: true
 audit_header: false
 podcast:
