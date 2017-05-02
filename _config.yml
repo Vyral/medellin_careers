@@ -34,12 +34,14 @@ gems:
   - octopress-autoprefixer
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-admin
 #  - jekyll-seo-tag
 
 # Excludes
 exclude:
   - .sass-cache
-
+  - _site
+  
 sass:
   sass_dir: _sass
   style: :nested
