@@ -8,7 +8,7 @@
     {% assign maxPages = 5 %}
   {% endif %}
 
-  {% assign halfPages = maxPages | divided_by: 2 %}
+  {% assign halfPages = maxPages | divided_by: 4 %}
   {% assign right-margin = paginator.total_pages | minus: paginator.page %}
   {% if paginator.page <= halfPages %}
     <!-- left-align -->
